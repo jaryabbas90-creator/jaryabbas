@@ -1,0 +1,2056 @@
+<style>
+  body {  
+    background-color:#97958a;
+    font-family:sans-serif;
+    font-size:12px;
+    background:rgb(151, 149, 138);
+  }  
+body { 
+/* CSS Variables that may have been missed get put on body */ 
+    --border-bottom-width:  1px;  
+    --border-color:  #ffba2433;  
+    --border-left-width:  1px;  
+    --border-right-width:  1px;  
+    --border-style:  dashed;  
+    --border-top-width:  1px;  
+    --border-bottom-width:  1px;  
+    --border-color:  #ffba2433;  
+    --border-left-width:  1px;  
+    --border-right-width:  1px;  
+    --border-style:  dashed;  
+    --border-top-width:  1px;  
+    --border-bottom-width:  1px;  
+    --border-color:  #ffba2433;  
+    --border-left-width:  1px;  
+    --border-right-width:  1px;  
+    --border-style:  dashed;  
+    --border-top-width:  1px;  
+    --border-bottom-width:  1px;  
+    --border-color:  #ffba2433;  
+    --border-left-width:  1px;  
+    --border-right-width:  1px;  
+    --border-style:  dashed;  
+    --border-top-width:  1px;  
+} 
+
+* { 
+    box-sizing: border-box; 
+    -webkit-font-smoothing: inherit;
+} 
+
+body { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+} 
+
+body { 
+    font-family: sans-serif; 
+    font-size: 12px;
+} 
+
+body { 
+    --framer-will-change-filter-override: none;
+} 
+
+html { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+} 
+
+:root { 
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale;
+} 
+
+.framer-lm6o5e  { 
+    height: min-content; 
+    overflow: var(--overflow-clip-fallback,clip); 
+    flex-flow: row; 
+    flex: none; 
+    place-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    width: 100%; 
+    padding: 105px 0 0; 
+    display: flex; 
+    position: relative;
+} 
+
+.framer-1jte13i-container  { 
+    flex: none; 
+    width: 400px; 
+    height: 480px; 
+    position: relative;
+} 
+
+button { 
+    font-family: sans-serif; 
+    font-size: 12px;
+} 
+
+.framer-280cpl  { 
+    --border-bottom-width: 1px; 
+    --border-color: #ffba2433; 
+    --border-left-width: 1px; 
+    --border-right-width: 1px; 
+    --border-style: dashed; 
+    --border-top-width: 1px; 
+    background-color: #2b2a1d; 
+    flex-flow: column; 
+    place-content: flex-start space-between; 
+    align-items: flex-start; 
+    width: 420px; 
+    height: 480px; 
+    padding: 20px; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-kFXUS[data-border="true"]:after, .framer-kFXUS [data-border="true"]::after { 
+    content: ""; 
+    border-width: var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0); 
+    border-color: var(--border-color,none); 
+    border-style: var(--border-style,none); 
+    box-sizing: border-box; 
+    border-radius: inherit; 
+    corner-shape: inherit; 
+    pointer-events: none; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+} 
+
+.framer-xx9hqt  { 
+    --border-bottom-width: 1px; 
+    --border-color: #ffba2433; 
+    --border-left-width: 1px; 
+    --border-right-width: 1px; 
+    --border-style: dashed; 
+    --border-top-width: 1px; 
+    background-color: #2b2a1d; 
+    flex-flow: column; 
+    place-content: flex-start space-between; 
+    align-items: flex-start; 
+    width: 420px; 
+    height: 480px; 
+    padding: 20px; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-kFXUS[data-border="true"]::after, .framer-kFXUS [data-border="true"]::after { 
+    content: ""; 
+    border-width: var(--border-top-width,0)var(--border-right-width,0)var(--border-bottom-width,0)var(--border-left-width,0); 
+    border-color: var(--border-color,none); 
+    border-style: var(--border-style,none); 
+    box-sizing: border-box; 
+    border-radius: inherit; 
+    corner-shape: inherit; 
+    pointer-events: none; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+} 
+
+.framer-1riqexq  { 
+    --border-bottom-width: 1px; 
+    --border-color: #ffba2433; 
+    --border-left-width: 1px; 
+    --border-right-width: 1px; 
+    --border-style: dashed; 
+    --border-top-width: 1px; 
+    background-color: #2b2a1d; 
+    flex-flow: column; 
+    place-content: flex-start space-between; 
+    align-items: flex-start; 
+    width: 420px; 
+    height: 480px; 
+    padding: 20px; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-vqsaj1  { 
+    --border-bottom-width: 1px; 
+    --border-color: #ffba2433; 
+    --border-left-width: 1px; 
+    --border-right-width: 1px; 
+    --border-style: dashed; 
+    --border-top-width: 1px; 
+    background-color: #2b2a1d; 
+    flex-flow: column; 
+    place-content: flex-start space-between; 
+    align-items: flex-start; 
+    width: 420px; 
+    height: 480px; 
+    padding: 20px; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+[data-framer-component-type] { 
+    position: absolute;
+} 
+
+[data-framer-component-type="RichTextContainer"] { 
+    outline: none; 
+    flex-direction: column; 
+    flex-shrink: 0; 
+    justify-content: flex-start; 
+    display: flex;
+} 
+
+.framer-gl0m7s  { 
+    white-space: pre-wrap; 
+    word-break: break-word; 
+    word-wrap: break-word; 
+    flex: none; 
+    width: 100%; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-1t9vb1a  { 
+    flex-flow: row; 
+    flex: none; 
+    place-content: flex-end space-between; 
+    align-items: flex-end; 
+    width: 100%; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-1vl73dr  { 
+    white-space: pre-wrap; 
+    word-break: break-word; 
+    word-wrap: break-word; 
+    flex: none; 
+    width: 100%; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-13gpc90  { 
+    flex-flow: row; 
+    flex: none; 
+    place-content: flex-end space-between; 
+    align-items: flex-end; 
+    width: 100%; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-1j2qokl  { 
+    white-space: pre-wrap; 
+    word-break: break-word; 
+    word-wrap: break-word; 
+    flex: none; 
+    width: 100%; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-1sb7mf3  { 
+    flex-flow: row; 
+    flex: none; 
+    place-content: flex-end space-between; 
+    align-items: flex-end; 
+    width: 100%; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-1vx5fxk  { 
+    white-space: pre-wrap; 
+    word-break: break-word; 
+    word-wrap: break-word; 
+    flex: none; 
+    width: 100%; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-a064tg  { 
+    flex-flow: row; 
+    flex: none; 
+    place-content: flex-end space-between; 
+    align-items: flex-end; 
+    width: 100%; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+p { 
+    margin: 0;
+} 
+
+p.framer-text { 
+    margin: 0; 
+    padding: 0;
+} 
+
+p.framer-text { 
+    font-family: var(--framer-font-family-preview,var(--framer-blockquote-font-family,var(--framer-font-family,Inter,Inter Placeholder,sans-serif))); 
+    font-style: var(--framer-font-style-preview,var(--framer-blockquote-font-style,var(--framer-font-style,normal))); 
+    font-weight: var(--framer-font-weight-preview,var(--framer-blockquote-font-weight,var(--framer-font-weight,400))); 
+    color: var(--framer-blockquote-text-color,var(--framer-text-color,#000)); 
+    font-size: calc(var(--framer-blockquote-font-size,var(--framer-font-size,16px))*var(--framer-font-size-scale,1)); 
+    letter-spacing: var(--framer-blockquote-letter-spacing,var(--framer-letter-spacing,0)); 
+    text-transform: var(--framer-blockquote-text-transform,var(--framer-text-transform,none)); 
+    -webkit-text-decoration-line: var(--framer-blockquote-text-decoration,var(--framer-text-decoration,initial)); 
+    text-decoration-line: var(--framer-blockquote-text-decoration,var(--framer-text-decoration,initial)); 
+    -webkit-text-decoration-style: var(--framer-blockquote-text-decoration-style,var(--framer-text-decoration-style,initial)); 
+    text-decoration-style: var(--framer-blockquote-text-decoration-style,var(--framer-text-decoration-style,initial)); 
+    -webkit-text-decoration-color: var(--framer-blockquote-text-decoration-color,var(--framer-text-decoration-color,initial)); 
+    text-decoration-color: var(--framer-blockquote-text-decoration-color,var(--framer-text-decoration-color,initial)); 
+    text-decoration-thickness: var(--framer-blockquote-text-decoration-thickness,var(--framer-text-decoration-thickness,initial)); 
+    text-decoration-skip-ink: var(--framer-blockquote-text-decoration-skip-ink,var(--framer-text-decoration-skip-ink,initial)); 
+    text-underline-offset: var(--framer-blockquote-text-decoration-offset,var(--framer-text-decoration-offset,initial)); 
+    line-height: var(--framer-blockquote-line-height,var(--framer-line-height,1.2em)); 
+    text-align: var(--framer-blockquote-text-alignment,var(--framer-text-alignment,start)); 
+    -webkit-text-stroke-width: var(--framer-text-stroke-width,initial); 
+    -webkit-text-stroke-color: var(--framer-text-stroke-color,initial); 
+    -moz-font-feature-settings: var(--framer-font-open-type-features,initial); 
+    -webkit-font-feature-settings: var(--framer-font-open-type-features,initial); 
+    font-feature-settings: var(--framer-font-open-type-features,initial); 
+    font-variation-settings: var(--framer-font-variation-axes-preview,var(--framer-font-variation-axes,normal)); 
+    text-wrap: var(--framer-text-wrap-override,var(--framer-text-wrap));
+} 
+
+p.framer-text { 
+    background-color: var(--framer-blockquote-text-background-color,var(--framer-text-background-color,initial)); 
+    border-radius: var(--framer-blockquote-text-background-radius,var(--framer-text-background-radius,initial)); 
+    corner-shape: var(--framer-blockquote-text-background-corner-shape,var(--framer-text-background-corner-shape,initial)); 
+    padding: var(--framer-blockquote-text-background-padding,var(--framer-text-background-padding,initial));
+} 
+
+.framer-4lyhb3  { 
+    flex-flow: column; 
+    flex: none; 
+    place-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    width: min-content; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-ula8n0  { 
+    height: auto; 
+    overflow: var(--overflow-clip-fallback,clip); 
+    will-change: var(--framer-will-change-filter-override,filter); 
+    flex: none; 
+    width: 32px; 
+    position: relative;
+} 
+
+.framer-5qnmjy  { 
+    flex-flow: column; 
+    flex: none; 
+    place-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    width: min-content; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-efny7y  { 
+    height: auto; 
+    overflow: var(--overflow-clip-fallback,clip); 
+    will-change: var(--framer-will-change-filter-override,filter); 
+    flex: none; 
+    width: 32px; 
+    position: relative;
+} 
+
+.framer-3ltfsk  { 
+    flex-flow: column; 
+    flex: none; 
+    place-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    width: min-content; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-1c8402n  { 
+    height: auto; 
+    overflow: var(--overflow-clip-fallback,clip); 
+    will-change: var(--framer-will-change-filter-override,filter); 
+    flex: none; 
+    width: 32px; 
+    position: relative;
+} 
+
+.framer-dieybe  { 
+    flex-flow: column; 
+    flex: none; 
+    place-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    width: min-content; 
+    height: min-content; 
+    padding: 0; 
+    display: flex; 
+    position: relative; 
+    overflow: visible;
+} 
+
+.framer-dvdwag  { 
+    height: auto; 
+    overflow: var(--overflow-clip-fallback,clip); 
+    will-change: var(--framer-will-change-filter-override,filter); 
+    flex: none; 
+    width: 32px; 
+    position: relative;
+} 
+
+.framer-7r0odb  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-lk62ux  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-1p049j0  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-1j0zlm8  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-12engv7  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-1l0yise  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-16t08mv  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+.framer-do8479  { 
+    white-space: pre; 
+    flex: none; 
+    width: auto; 
+    height: auto; 
+    position: relative;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-KK5ng.style-KK5ng {  
+   display: flex;  
+    flex-direction: row;  
+    width: 100%;  
+    height: 100%;  
+    max-width: 100%;  
+    max-height: 100%;  
+    place-items: center;  
+    margin: 0px;  
+    padding: 0px;  
+    list-style-type: none;  
+    opacity: 1;  
+    user-select: none;  
+}  
+#style-33k7r.style-33k7r {  
+   width:100%;  
+   height:100%;  
+   margin:0;  
+   padding:inherit;  
+   position:absolute;  
+   inset:0;  
+   overflow:visible;  
+   border-radius:0;  
+   user-select:none;  
+   perspective:1200px;  
+}  
+#style-stoh6.style-stoh6 {  
+   display: flex;  
+    flex-direction: row;  
+    width: 100%;  
+    height: 100%;  
+    max-width: 100%;  
+    max-height: 100%;  
+    place-items: center;  
+    margin: 0px;  
+    padding: 0px;  
+    list-style-type: none;  
+    gap: 10px;  
+    cursor: grab;  
+    transform: translateX(-1640px);  
+    user-select: none;  
+    touch-action: pan-y;  
+}  
+#style-YqySg.style-YqySg {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 100% 50% 0px;  
+}  
+#style-9BdOa.style-9BdOa {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-r2OF8.style-r2OF8 {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-VfIiX.style-VfIiX {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-MVUj1.style-MVUj1 {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-O7qIb.style-O7qIb {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-YnZej.style-YnZej {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-OXh4E.style-OXh4E {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 100% 50% 0px;  
+}  
+#style-lDItj.style-lDItj {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-VgaHs.style-VgaHs {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-2LlYZ.style-2LlYZ {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-wiovA.style-wiovA {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-rAXMt.style-rAXMt {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-Z3Voo.style-Z3Voo {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-5A962.style-5A962 {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 100% 50% 0px;  
+}  
+#style-ylKZh.style-ylKZh {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-rzbsz.style-rzbsz {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-54MFG.style-54MFG {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-TR1QS.style-TR1QS {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-lUc4s.style-lUc4s {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-UrnWc.style-UrnWc {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-IGb6m.style-IGb6m {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 100% 50% 0px;  
+}  
+#style-dV5tA.style-dV5tA {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-s3zlf.style-s3zlf {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-8JfoY.style-8JfoY {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-A9vZQ.style-A9vZQ {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-Zz7HL.style-Zz7HL {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-mjaav.style-mjaav {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-eYkK2.style-eYkK2 {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 100% 50% 0px;  
+}  
+#style-oYHSb.style-oYHSb {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-xjVhi.style-xjVhi {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-e3mfh.style-e3mfh {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-nlQkl.style-nlQkl {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-B6xZQ.style-B6xZQ {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-kyBdI.style-kyBdI {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-sLTIV.style-sLTIV {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-eMF53.style-eMF53 {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-cW2hy.style-cW2hy {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-7J9nd.style-7J9nd {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-KU8wJ.style-KU8wJ {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-rD64w.style-rD64w {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-exWvH.style-exWvH {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-7qLwF.style-7qLwF {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-PXhYn.style-PXhYn {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-kOX94.style-kOX94 {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-VQm4D.style-VQm4D {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-YOvCn.style-YOvCn {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-pWs1f.style-pWs1f {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-nXfHL.style-nXfHL {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-ZD3H9.style-ZD3H9 {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-M7qGd.style-M7qGd {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-JywPw.style-JywPw {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-dw9fy.style-dw9fy {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-F3ao2.style-F3ao2 {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-97gPR.style-97gPR {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-ojxml.style-ojxml {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-oIKvN.style-oIKvN {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-Xqtrh.style-Xqtrh {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-PYZBI.style-PYZBI {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-fzgPh.style-fzgPh {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-9c7De.style-9c7De {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-oiKCj.style-oiKCj {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-IdWHw.style-IdWHw {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-kReBP.style-kReBP {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: visible;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-DTZek.style-DTZek {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-qdHmH.style-qdHmH {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-EySzZ.style-EySzZ {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-tsoro.style-tsoro {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-yoUFb.style-yoUFb {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-wxyPT.style-wxyPT {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-4731Q.style-4731Q {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: hidden;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-gcAjP.style-gcAjP {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-Xq2Iy.style-Xq2Iy {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-n7Htk.style-n7Htk {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-o7xCW.style-o7xCW {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-DkW67.style-DkW67 {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-SkJyJ.style-SkJyJ {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-wAA4o.style-wAA4o {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: hidden;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-wsbER.style-wsbER {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-HrXN7.style-HrXN7 {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-K8ItD.style-K8ItD {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-Vb7YV.style-Vb7YV {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-onhyk.style-onhyk {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-Hfpbh.style-Hfpbh {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-kepJo.style-kepJo {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: hidden;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-hQoGs.style-hQoGs {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-p5Aoi.style-p5Aoi {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-ff9lr.style-ff9lr {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-l9hrf.style-l9hrf {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-Ua1lf.style-Ua1lf {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-nLVCn.style-nLVCn {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-ZL83G.style-ZL83G {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: hidden;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-fPV9j.style-fPV9j {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-TxKiK.style-TxKiK {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-g8ZwR.style-g8ZwR {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-RIRhR.style-RIRhR {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-Nv5UA.style-Nv5UA {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-cGTWS.style-cGTWS {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-7TpjD.style-7TpjD {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: hidden;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-wlqkh.style-wlqkh {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-MW9bx.style-MW9bx {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-gaK17.style-gaK17 {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-8OyGJ.style-8OyGJ {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-U192t.style-U192t {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-Ygzta.style-Ygzta {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-tghqc.style-tghqc {  
+   flex-shrink: 0;  
+    user-select: none;  
+    width: 100%;  
+    height: 100%;  
+    opacity: 1;  
+    visibility: hidden;  
+    transform: none;  
+    transform-origin: 0% 50% 0px;  
+}  
+#style-hnYLq.style-hnYLq {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-8WGB3.style-8WGB3 {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:140%;  
+   --framer-text-color:rgb(255, 186, 36);  
+}  
+#style-5CTL9.style-5CTL9 {  
+   --font-selector:Q1VTVE9NO0hlbHZldGljYSBOZXVlIEJvbGQ=;  
+   --framer-font-family:&quot;  
+   Helvetica Neue Bold&quot;  
+   , &quot;  
+   Helvetica Neue Bold Placeholder&quot;  
+   , sans-serif;  
+   --framer-font-size:14px;  
+   --framer-font-weight:700;  
+   --framer-letter-spacing:-0.06em;  
+   --framer-line-height:135%;  
+   --framer-text-color:rgb(151, 149, 138);  
+}  
+#style-7oLE5.style-7oLE5 {  
+   height:auto;  
+   aspect-ratio:1.032258064516129;  
+}  
+#style-FkUdM.style-FkUdM {  
+   position:absolute;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   top:0;  
+   right:0;  
+   bottom:0;  
+   left:0;  
+}  
+#style-NEDpY.style-NEDpY {  
+   display:block;  
+   width:100%;  
+   height:100%;  
+   border-radius:inherit;  
+   corner-shape:inherit;  
+   object-position:center;  
+   object-fit:cover;  
+}  
+#style-wZJzN.style-wZJzN {  
+   display:flex;  
+   justify-content:space-between;  
+   align-items:center;  
+   position:absolute;  
+   pointer-events:none;  
+   user-select:none;  
+   top:0;  
+   left:0;  
+   right:0;  
+   bottom:0;  
+   border:0;  
+   padding:0;  
+   margin:0;  
+}  
+#style-W1Cc1.style-W1Cc1 {  
+   position:absolute;  
+   display:flex;  
+   flex-direction:row;  
+   justify-content:space-between;  
+   gap:unset;  
+   opacity:1;  
+   align-items:center;  
+   inset:20px;  
+   top:20px;  
+   left:20px;  
+   right:20px;  
+   bottom:20px;  
+}  
+#style-vgYso.style-vgYso {  
+   border:none;  
+   display:none;  
+   place-content:center;  
+   place-items:center;  
+   overflow:hidden;  
+   background:transparent;  
+   cursor:pointer;  
+   margin:0;  
+   padding:0;  
+   background-color:rgba(0, 0, 0, 0.2);  
+   width:40px;  
+   height:40px;  
+   border-radius:40px;  
+   pointer-events:auto;  
+   transform:none;  
+}  
+#style-DFyto.style-DFyto {  
+   border:none;  
+   display:none;  
+   place-content:center;  
+   place-items:center;  
+   overflow:hidden;  
+   background:transparent;  
+   cursor:pointer;  
+   margin:0;  
+   padding:0;  
+   background-color:rgba(0, 0, 0, 0.2);  
+   width:40px;  
+   height:40px;  
+   border-radius:40px;  
+   pointer-events:auto;  
+   transform:none;  
+}  
+</style>
+</head>
+<body>
+
+<div class="framer-lm6o5e snipcss-Amc2y" data-framer-name="review cards" id="reviews">
+    <div class="framer-1jte13i-container hidden-1fe01zv">
+        <section id="style-KK5ng" class="style-KK5ng">
+            <div id="style-33k7r" class="style-33k7r">
+                <ul draggable="false" id="style-stoh6" class="style-stoh6">
+                    <li style="display:contents">
+                        <div class="framer-280cpl style-YqySg" data-border="true" data-framer-name="Review card" aria-hidden="true" id="style-YqySg">
+                            <div class="framer-gl0m7s" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-9BdOa" id="style-9BdOa">We had pieces of our brand, but Heretic helped us align, define, and elevate it. They’re true professionals: sharp thinkers, strong presenters, and great operators who know how to turn vision into something cohesive.</p>
+                            </div>
+                            <div class="framer-1t9vb1a" data-framer-name="Frame 115">
+                                <div class="framer-4lyhb3" data-framer-name="Frame 114">
+                                    <div class="framer-7r0odb" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-r2OF8" id="style-r2OF8">Hourglass</p>
+                                    </div>
+                                    <div class="framer-lk62ux" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-VfIiX" id="style-VfIiX">Charlie Pyle</p>
+                                    </div>
+                                </div>
+                                <div class="framer-ula8n0 style-MVUj1" id="style-MVUj1">
+                                    <div data-framer-background-image-wrapper="true" id="style-O7qIb" class="style-O7qIb"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-YnZej" class="style-YnZej"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-xx9hqt style-OXh4E" data-border="true" data-framer-name="Review card" aria-hidden="true" id="style-OXh4E">
+                            <div class="framer-1vl73dr" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p dir="auto" class="framer-text style-lDItj" id="style-lDItj">We wanted to elevate our long-term vision for the brand. Heretic pushed into our purpose, forced clarity, and gave us direction that aligned with both who we are now and where we want to be.</p>
+                            </div>
+                            <div class="framer-13gpc90" data-framer-name="Frame 115">
+                                <div class="framer-5qnmjy" data-framer-name="Frame 114">
+                                    <div class="framer-1p049j0" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-VgaHs" id="style-VgaHs">Morpho</p>
+                                    </div>
+                                    <div class="framer-1j0zlm8" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-2LlYZ" id="style-2LlYZ">Simon Crotty</p>
+                                    </div>
+                                </div>
+                                <div class="framer-efny7y style-wiovA" id="style-wiovA">
+                                    <div data-framer-background-image-wrapper="true" id="style-rAXMt" class="style-rAXMt"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-Z3Voo" class="style-Z3Voo"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-1riqexq style-5A962" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-5A962">
+                            <div class="framer-1j2qokl" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-ylKZh" id="style-ylKZh">Heretic helped us up-level our brand by probing into the heart of what our company does, understanding our challenges, and synthesizing those learnings into a beautiful logo, word-mark, and brand voice. Cannot recommend working with them highly enough.</p>
+                            </div>
+                            <div class="framer-1sb7mf3" data-framer-name="Frame 115">
+                                <div class="framer-3ltfsk" data-framer-name="Frame 114">
+                                    <div class="framer-12engv7" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-rzbsz" id="style-rzbsz">Icebreaker</p>
+                                    </div>
+                                    <div class="framer-1l0yise" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-54MFG" id="style-54MFG">Jack Dillé</p>
+                                    </div>
+                                </div>
+                                <div class="framer-1c8402n style-TR1QS" id="style-TR1QS">
+                                    <div data-framer-background-image-wrapper="true" id="style-lUc4s" class="style-lUc4s"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-UrnWc" class="style-UrnWc"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-vqsaj1 style-IGb6m" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-IGb6m">
+                            <div class="framer-1vx5fxk" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-dV5tA" id="style-dV5tA">We trust the Heretic team with everything revolving around our brand. They are the architects and the creative brains behind making Gaia what it is. If I ever have any questions about where to take it, Heretic is my first call.</p>
+                            </div>
+                            <div class="framer-a064tg" data-framer-name="Frame 115">
+                                <div class="framer-dieybe" data-framer-name="Frame 114">
+                                    <div class="framer-16t08mv" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-s3zlf" id="style-s3zlf">Gaia</p>
+                                    </div>
+                                    <div class="framer-do8479" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-8JfoY" id="style-8JfoY">Matt Wright</p>
+                                    </div>
+                                </div>
+                                <div class="framer-dvdwag style-A9vZQ" id="style-A9vZQ">
+                                    <div data-framer-background-image-wrapper="true" id="style-Zz7HL" class="style-Zz7HL"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-mjaav" class="style-mjaav"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-280cpl style-eYkK2" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-eYkK2">
+                            <div class="framer-gl0m7s" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-oYHSb" id="style-oYHSb">We had pieces of our brand, but Heretic helped us align, define, and elevate it. They’re true professionals: sharp thinkers, strong presenters, and great operators who know how to turn vision into something cohesive.</p>
+                            </div>
+                            <div class="framer-1t9vb1a" data-framer-name="Frame 115">
+                                <div class="framer-4lyhb3" data-framer-name="Frame 114">
+                                    <div class="framer-7r0odb" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-xjVhi" id="style-xjVhi">Hourglass</p>
+                                    </div>
+                                    <div class="framer-lk62ux" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-e3mfh" id="style-e3mfh">Charlie Pyle</p>
+                                    </div>
+                                </div>
+                                <div class="framer-ula8n0 style-nlQkl" id="style-nlQkl">
+                                    <div data-framer-background-image-wrapper="true" id="style-B6xZQ" class="style-B6xZQ"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-kyBdI" class="style-kyBdI"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-xx9hqt style-sLTIV" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-sLTIV">
+                            <div class="framer-1vl73dr" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p dir="auto" class="framer-text style-eMF53" id="style-eMF53">We wanted to elevate our long-term vision for the brand. Heretic pushed into our purpose, forced clarity, and gave us direction that aligned with both who we are now and where we want to be.</p>
+                            </div>
+                            <div class="framer-13gpc90" data-framer-name="Frame 115">
+                                <div class="framer-5qnmjy" data-framer-name="Frame 114">
+                                    <div class="framer-1p049j0" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-cW2hy" id="style-cW2hy">Morpho</p>
+                                    </div>
+                                    <div class="framer-1j0zlm8" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-7J9nd" id="style-7J9nd">Simon Crotty</p>
+                                    </div>
+                                </div>
+                                <div class="framer-efny7y style-KU8wJ" id="style-KU8wJ">
+                                    <div data-framer-background-image-wrapper="true" id="style-rD64w" class="style-rD64w"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-exWvH" class="style-exWvH"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-1riqexq style-7qLwF" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-7qLwF">
+                            <div class="framer-1j2qokl" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-PXhYn" id="style-PXhYn">Heretic helped us up-level our brand by probing into the heart of what our company does, understanding our challenges, and synthesizing those learnings into a beautiful logo, word-mark, and brand voice. Cannot recommend working with them highly enough.</p>
+                            </div>
+                            <div class="framer-1sb7mf3" data-framer-name="Frame 115">
+                                <div class="framer-3ltfsk" data-framer-name="Frame 114">
+                                    <div class="framer-12engv7" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-kOX94" id="style-kOX94">Icebreaker</p>
+                                    </div>
+                                    <div class="framer-1l0yise" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-VQm4D" id="style-VQm4D">Jack Dillé</p>
+                                    </div>
+                                </div>
+                                <div class="framer-1c8402n style-YOvCn" id="style-YOvCn">
+                                    <div data-framer-background-image-wrapper="true" id="style-pWs1f" class="style-pWs1f"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-nXfHL" class="style-nXfHL"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-vqsaj1 style-ZD3H9" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-ZD3H9">
+                            <div class="framer-1vx5fxk" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-M7qGd" id="style-M7qGd">We trust the Heretic team with everything revolving around our brand. They are the architects and the creative brains behind making Gaia what it is. If I ever have any questions about where to take it, Heretic is my first call.</p>
+                            </div>
+                            <div class="framer-a064tg" data-framer-name="Frame 115">
+                                <div class="framer-dieybe" data-framer-name="Frame 114">
+                                    <div class="framer-16t08mv" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-JywPw" id="style-JywPw">Gaia</p>
+                                    </div>
+                                    <div class="framer-do8479" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-dw9fy" id="style-dw9fy">Matt Wright</p>
+                                    </div>
+                                </div>
+                                <div class="framer-dvdwag style-F3ao2" id="style-F3ao2">
+                                    <div data-framer-background-image-wrapper="true" id="style-97gPR" class="style-97gPR"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-ojxml" class="style-ojxml"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-280cpl style-oIKvN" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-oIKvN">
+                            <div class="framer-gl0m7s" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-Xqtrh" id="style-Xqtrh">We had pieces of our brand, but Heretic helped us align, define, and elevate it. They’re true professionals: sharp thinkers, strong presenters, and great operators who know how to turn vision into something cohesive.</p>
+                            </div>
+                            <div class="framer-1t9vb1a" data-framer-name="Frame 115">
+                                <div class="framer-4lyhb3" data-framer-name="Frame 114">
+                                    <div class="framer-7r0odb" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-PYZBI" id="style-PYZBI">Hourglass</p>
+                                    </div>
+                                    <div class="framer-lk62ux" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-fzgPh" id="style-fzgPh">Charlie Pyle</p>
+                                    </div>
+                                </div>
+                                <div class="framer-ula8n0 style-9c7De" id="style-9c7De">
+                                    <div data-framer-background-image-wrapper="true" id="style-oiKCj" class="style-oiKCj"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-IdWHw" class="style-IdWHw"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-xx9hqt style-kReBP" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-kReBP">
+                            <div class="framer-1vl73dr" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p dir="auto" class="framer-text style-DTZek" id="style-DTZek">We wanted to elevate our long-term vision for the brand. Heretic pushed into our purpose, forced clarity, and gave us direction that aligned with both who we are now and where we want to be.</p>
+                            </div>
+                            <div class="framer-13gpc90" data-framer-name="Frame 115">
+                                <div class="framer-5qnmjy" data-framer-name="Frame 114">
+                                    <div class="framer-1p049j0" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-qdHmH" id="style-qdHmH">Morpho</p>
+                                    </div>
+                                    <div class="framer-1j0zlm8" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-EySzZ" id="style-EySzZ">Simon Crotty</p>
+                                    </div>
+                                </div>
+                                <div class="framer-efny7y style-tsoro" id="style-tsoro">
+                                    <div data-framer-background-image-wrapper="true" id="style-yoUFb" class="style-yoUFb"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-wxyPT" class="style-wxyPT"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-1riqexq style-4731Q" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-4731Q">
+                            <div class="framer-1j2qokl" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-gcAjP" id="style-gcAjP">Heretic helped us up-level our brand by probing into the heart of what our company does, understanding our challenges, and synthesizing those learnings into a beautiful logo, word-mark, and brand voice. Cannot recommend working with them highly enough.</p>
+                            </div>
+                            <div class="framer-1sb7mf3" data-framer-name="Frame 115">
+                                <div class="framer-3ltfsk" data-framer-name="Frame 114">
+                                    <div class="framer-12engv7" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-Xq2Iy" id="style-Xq2Iy">Icebreaker</p>
+                                    </div>
+                                    <div class="framer-1l0yise" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-n7Htk" id="style-n7Htk">Jack Dillé</p>
+                                    </div>
+                                </div>
+                                <div class="framer-1c8402n style-o7xCW" id="style-o7xCW">
+                                    <div data-framer-background-image-wrapper="true" id="style-DkW67" class="style-DkW67"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-SkJyJ" class="style-SkJyJ"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-vqsaj1 style-wAA4o" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-wAA4o">
+                            <div class="framer-1vx5fxk" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-wsbER" id="style-wsbER">We trust the Heretic team with everything revolving around our brand. They are the architects and the creative brains behind making Gaia what it is. If I ever have any questions about where to take it, Heretic is my first call.</p>
+                            </div>
+                            <div class="framer-a064tg" data-framer-name="Frame 115">
+                                <div class="framer-dieybe" data-framer-name="Frame 114">
+                                    <div class="framer-16t08mv" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-HrXN7" id="style-HrXN7">Gaia</p>
+                                    </div>
+                                    <div class="framer-do8479" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-K8ItD" id="style-K8ItD">Matt Wright</p>
+                                    </div>
+                                </div>
+                                <div class="framer-dvdwag style-Vb7YV" id="style-Vb7YV">
+                                    <div data-framer-background-image-wrapper="true" id="style-onhyk" class="style-onhyk"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-Hfpbh" class="style-Hfpbh"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-280cpl style-kepJo" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-kepJo">
+                            <div class="framer-gl0m7s" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-hQoGs" id="style-hQoGs">We had pieces of our brand, but Heretic helped us align, define, and elevate it. They’re true professionals: sharp thinkers, strong presenters, and great operators who know how to turn vision into something cohesive.</p>
+                            </div>
+                            <div class="framer-1t9vb1a" data-framer-name="Frame 115">
+                                <div class="framer-4lyhb3" data-framer-name="Frame 114">
+                                    <div class="framer-7r0odb" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-p5Aoi" id="style-p5Aoi">Hourglass</p>
+                                    </div>
+                                    <div class="framer-lk62ux" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-ff9lr" id="style-ff9lr">Charlie Pyle</p>
+                                    </div>
+                                </div>
+                                <div class="framer-ula8n0 style-l9hrf" id="style-l9hrf">
+                                    <div data-framer-background-image-wrapper="true" id="style-Ua1lf" class="style-Ua1lf"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-nLVCn" class="style-nLVCn"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-xx9hqt style-ZL83G" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-ZL83G">
+                            <div class="framer-1vl73dr" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p dir="auto" class="framer-text style-fPV9j" id="style-fPV9j">We wanted to elevate our long-term vision for the brand. Heretic pushed into our purpose, forced clarity, and gave us direction that aligned with both who we are now and where we want to be.</p>
+                            </div>
+                            <div class="framer-13gpc90" data-framer-name="Frame 115">
+                                <div class="framer-5qnmjy" data-framer-name="Frame 114">
+                                    <div class="framer-1p049j0" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-TxKiK" id="style-TxKiK">Morpho</p>
+                                    </div>
+                                    <div class="framer-1j0zlm8" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-g8ZwR" id="style-g8ZwR">Simon Crotty</p>
+                                    </div>
+                                </div>
+                                <div class="framer-efny7y style-RIRhR" id="style-RIRhR">
+                                    <div data-framer-background-image-wrapper="true" id="style-Nv5UA" class="style-Nv5UA"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-cGTWS" class="style-cGTWS"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-1riqexq style-7TpjD" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-7TpjD">
+                            <div class="framer-1j2qokl" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-wlqkh" id="style-wlqkh">Heretic helped us up-level our brand by probing into the heart of what our company does, understanding our challenges, and synthesizing those learnings into a beautiful logo, word-mark, and brand voice. Cannot recommend working with them highly enough.</p>
+                            </div>
+                            <div class="framer-1sb7mf3" data-framer-name="Frame 115">
+                                <div class="framer-3ltfsk" data-framer-name="Frame 114">
+                                    <div class="framer-12engv7" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-MW9bx" id="style-MW9bx">Icebreaker</p>
+                                    </div>
+                                    <div class="framer-1l0yise" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-gaK17" id="style-gaK17">Jack Dillé</p>
+                                    </div>
+                                </div>
+                                <div class="framer-1c8402n style-8OyGJ" id="style-8OyGJ">
+                                    <div data-framer-background-image-wrapper="true" id="style-U192t" class="style-U192t"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-Ygzta" class="style-Ygzta"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="display:contents">
+                        <div class="framer-vqsaj1 style-tghqc" data-border="true" data-framer-name="Review card" aria-hidden="false" id="style-tghqc">
+                            <div class="framer-1vx5fxk" data-framer-name="Whether that’s through a campaign, a stunt, or a brand identity. We’ve fought wars in boardrooms and chat rooms alike, learning that no single path leads to great work. What matters is collaboration, curiosity, and a shared willingness to break what’s safe." data-framer-component-type="RichTextContainer" style="transform:none">
+                                <p class="framer-text style-hnYLq" id="style-hnYLq">We trust the Heretic team with everything revolving around our brand. They are the architects and the creative brains behind making Gaia what it is. If I ever have any questions about where to take it, Heretic is my first call.</p>
+                            </div>
+                            <div class="framer-a064tg" data-framer-name="Frame 115">
+                                <div class="framer-dieybe" data-framer-name="Frame 114">
+                                    <div class="framer-16t08mv" data-framer-name="Client title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-8WGB3" id="style-8WGB3">Gaia</p>
+                                    </div>
+                                    <div class="framer-do8479" data-framer-name="Company Title" data-framer-component-type="RichTextContainer" style="transform:none">
+                                        <p class="framer-text style-5CTL9" id="style-5CTL9">Matt Wright</p>
+                                    </div>
+                                </div>
+                                <div class="framer-dvdwag style-7oLE5" id="style-7oLE5">
+                                    <div data-framer-background-image-wrapper="true" id="style-FkUdM" class="style-FkUdM"><img decoding="auto" width="32" height="31" src="https://framerusercontent.com/images/cDJ7RWmd2DgV1ksBJHe087H78jg.svg?width=32&amp;height=31" alt id="style-NEDpY" class="style-NEDpY"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <fieldset aria-label="Slideshow pagination controls" class="framer--slideshow-controls style-wZJzN" id="style-wZJzN">
+                <div id="style-W1Cc1" class="style-W1Cc1"><button type="button" aria-label="Previous" tabindex="0" id="style-vgYso" class="style-vgYso"><img decoding="async" width="40" height="40" src="https://framerusercontent.com/images/6tTbkXggWgQCAJ4DO2QEdXXmgM.svg?arrow=left" alt="Back Arrow"></button><button type="button" aria-label="Next" tabindex="0" id="style-DFyto" class="style-DFyto"><img decoding="async" width="40" height="40" src="https://framerusercontent.com/images/11KSGbIZoRSg4pjdnUoif6MKHI.svg?arrow=right" alt="Next Arrow"></button></div>
+            </fieldset>
+        </section>
+    </div>
+</div>
+
+
+
